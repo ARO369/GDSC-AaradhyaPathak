@@ -1,0 +1,30 @@
+/* CSS writen in assending order of components */
+
+.Events {
+  background-color: #cde1d8;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 6rem;
+  padding-top: 1rem;
+}
+
+.card-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+  align-items: center;
+}
+
+.event--title {
+  font-size: 50px;
+}
+
+@media screen and (max-width: 1128px) {
+  .card-section {
+    flex-direction: column;
+  }
+}

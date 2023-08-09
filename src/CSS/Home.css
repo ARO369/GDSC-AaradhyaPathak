@@ -1,0 +1,291 @@
+/* CSS writen in assending order of components */
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #fff;
+  font-family: "Quicksand", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Main - 1 */
+
+.main--one {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  margin-top: 4rem;
+  width: 100%;
+  padding-bottom: 8rem;
+}
+
+.info--one {
+  width: 50%;
+  padding: 1rem;
+  padding-left: 8rem;
+}
+
+.image--one {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding-top: 6rem;
+}
+
+.Display--img-1 {
+  width: 500px;
+  height: 500px;
+  object-fit: contain;
+}
+
+/* Main - two */
+
+.main--two {
+  background-color: #f2efef;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 4rem;
+  height: 100%;
+  padding-bottom: 3rem;
+}
+
+.info--two {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 8rem;
+}
+.image--two {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.Display--img-2 {
+  height: 30rem;
+  object-fit: contain;
+  padding-top: 4rem;
+}
+
+/* Main - three */
+.main--three {
+  display: flex;
+  flex-direction: row;
+  padding-left: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.info--three {
+  width: 50%;
+  padding: 1rem;
+  padding-left: 8rem;
+}
+
+.image--three {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding-top: 10rem;
+}
+
+.Display--img-3 {
+  height: 30rem;
+  object-fit: contain;
+}
+
+/* Main - four */
+
+.main--four {
+  background-color: #f2efef;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 4rem;
+  height: 100%;
+  padding-bottom: 3rem;
+}
+
+.info--four {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 8rem;
+}
+
+.image--four {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+.Display--img-4 {
+  height: 30rem;
+  object-fit: contain;
+}
+
+/* Colored--text */
+
+.colored--text {
+  color: #af179f;
+}
+
+@media screen and (max-width: 1128px) {
+  /* Main - 1 */
+  .info--one {
+    padding-left: 4rem;
+    width: 60%;
+  }
+
+  .main--one {
+    font-size: 18px;
+  }
+
+  .Display--img-1 {
+    height: 250px;
+  }
+
+  .image--one {
+    width: 30%;
+  }
+
+  /* Main -2  */
+  .info--two {
+    padding-left: 4rem;
+    width: 80%;
+    padding-right: 0px;
+  }
+
+  .main--two {
+    font-size: 18px;
+    padding-top: 2rem;
+    height: 100%;
+    padding-bottom: 3rem;
+  }
+
+  .Display--img-2 {
+    height: 250px;
+    display: none;
+  }
+
+  .image--two {
+    width: 0%;
+  }
+
+  /* Main-3 */
+  .info--three {
+    padding-left: 4rem;
+    width: 60%;
+  }
+
+  .main--three {
+    font-size: 18px;
+  }
+
+  .Display--img-3 {
+    height: 250px;
+  }
+
+  .image--three {
+    width: 30%;
+  }
+
+  /* Main-4 */
+  .info--four {
+    padding-left: 4rem;
+    width: 80%;
+    padding-right: 0px;
+  }
+
+  .main--four {
+    font-size: 18px;
+    padding-top: 0rem;
+    height: 100%;
+    padding-bottom: 3rem;
+    flex-direction: column;
+  }
+
+  .Display--img-4 {
+    height: 250px;
+  }
+
+  .image--four {
+    width: 100%;
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 762px) {
+  /* Main - 1 */
+  .main--one {
+    flex-direction: column;
+  }
+  .info--one {
+    width: 80%;
+    padding-left: 2.5rem;
+    padding-top: 0px;
+  }
+
+  .Display--img-1,
+  .Display--img-2,
+  .Display--img-3,
+  .Display--img-4 {
+    width: 100%;
+  }
+  .image--one {
+    width: 100%;
+    padding-top: 2rem;
+  }
+
+  /* Main - 2 */
+  .main--two {
+    flex-direction: column;
+    padding-top: 0;
+  }
+  .info--two {
+    width: 80%;
+    padding-left: 2.5rem;
+    padding-top: 0px;
+  }
+
+  .image--two {
+    width: 100%;
+    padding-top: 2rem;
+  }
+
+  /* Main-3 */
+
+  .main--three {
+    flex-direction: column;
+    padding-left: 0;
+    padding-top: 0;
+  }
+
+  .info--three {
+    width: 80%;
+    padding-left: 2.5rem;
+  }
+
+  .image--three {
+    width: 100%;
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 762px) {
+  .main--one {
+    margin-top: 3rem;
+  }
+
+  .info--four,
+  .info--one,
+  .info--three,
+  .info--two {
+    padding-left: 2rem;
+  }
+}
