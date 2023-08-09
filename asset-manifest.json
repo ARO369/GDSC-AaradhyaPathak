@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/gdscwebsite/static/css/main.72948c2c.css",
+    "main.js": "/gdscwebsite/static/js/main.edfbe20a.js",
+    "static/media/pfp-man.jpg": "/gdscwebsite/static/media/pfp-man.1c6021d9e45caaa6273d.jpg",
+    "static/media/ill-2.png": "/gdscwebsite/static/media/ill-2.5d5f281dd2628ce2c9e7.png",
+    "static/media/ill-3.png": "/gdscwebsite/static/media/ill-3.b5eae00ad1e8aa1cc142.png",
+    "static/media/ill-4.png": "/gdscwebsite/static/media/ill-4.495f897a2cfe11b2c737.png",
+    "static/media/hero.png": "/gdscwebsite/static/media/hero.299bc3dc9b0b34c60520.png",
+    "static/media/ill-1.png": "/gdscwebsite/static/media/ill-1.62faa4dd1cab12530163.png",
+    "static/media/collage-logo-crop.png": "/gdscwebsite/static/media/collage-logo-crop.f999056f33710adaa731.png",
+    "static/media/gdsc-bg.png": "/gdscwebsite/static/media/gdsc-bg.24ccf041707271e5fae7.png",
+    "static/media/event-banner.png": "/gdscwebsite/static/media/event-banner.d36a3d561e901f507068.png",
+    "static/media/pfp-female.jpg": "/gdscwebsite/static/media/pfp-female.83738d05563dfc6c1a4c.jpg",
+    "static/media/logo-colored.png": "/gdscwebsite/static/media/logo-colored.55d8127a3075abb8f641.png",
+    "index.html": "/gdscwebsite/index.html",
+    "main.72948c2c.css.map": "/gdscwebsite/static/css/main.72948c2c.css.map",
+    "main.edfbe20a.js.map": "/gdscwebsite/static/js/main.edfbe20a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72948c2c.css",
+    "static/js/main.edfbe20a.js"
+  ]
+}
