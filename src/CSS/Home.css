@@ -299,6 +299,7 @@ html {
 @media screen and (max-width: 762px) {
   .main--one {
     margin-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   .info--four,
@@ -307,4 +308,9 @@ html {
   .info--two {
     padding-left: 2rem;
   }
+
+  .Display--img-1{
+    padding-top: 2rem;
+  }
+
 }
