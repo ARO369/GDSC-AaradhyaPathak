@@ -7,20 +7,20 @@ export const Navbar = () => {
   return (
     <>
       <div className="navbar">
-        <a href="#Home">
+        <a href={"#Home"}>
           <picture>
             <source srcSet={moblogo} media="(max-width: 638px)" />
             <img src={Logo} className="logo" alt="logo" />
           </picture>
         </a>
         <div className="navigation">
-          <a href="#Home">
+          <a href={"#Home"}>
             <div className="events">Home</div>
           </a>
-          <a href="#Events--section">
+          <a href={"#Events--section"}>
             <div className="events">Events</div>
           </a>
-          <a href="#Contact--section">
+          <a href={"#Contact--section"}>
             <div className="events">Team</div>
           </a>
         </div>

@@ -73,6 +73,17 @@
   padding-top: 1rem;
 }
 
+.Accordion{
+  width: 30%;
+  margin-top: 2rem;
+}
+
+
+.Executive--names{
+  
+}
+
+
 @media screen and (max-width: 1290px) {
   .row--one,
   .row--two {
