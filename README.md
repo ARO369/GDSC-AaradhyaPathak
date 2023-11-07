@@ -1,3 +1,6 @@
+## Wedsite Link: https://aro369.github.io/GDSC-AaradhyaPathak/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -38,6 +41,21 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## How to navigate to this code (Guide)
+
+This code is written in react js. it means the code written here is follow the component architecture. All the components like Navbar, Home, Events, Contacts, Socials, Footer
+are stored in saperate folder. 
+
+All the CSS of this components are also written in the saperate folder. to access images , information for any activity like event or contact. Props are used.
+You can just have to add or remove the props from the given code. We dont need to make full hard code component again.
+
+To understand all the system of react like build, packages etc, you need to refer this doc - https://legacy.reactjs.org/docs/getting-started.html
+
+This app is made with create-react-app . it require build to deployed on hosting.
+No route were use in this app.
+
+if you have any query regarding this project, reach me out!
 
 ## Learn More
 
