@@ -3,11 +3,12 @@ import "../CSS/Contact.css";
 import { TeamCard } from "../components/ContactCard";
 import pfp1 from "../images/pfp-man.jpg";
 import pfp2 from "../images/pfp-female.jpg";
-import Accordion from "@mui/material/Accordion";
-import AccordionSummary from "@mui/material/AccordionSummary";
-import AccordionDetails from "@mui/material/AccordionDetails";
-import Typography from "@mui/material/Typography";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+// import Accordion from "@mui/material/Accordion";
+// import AccordionSummary from "@mui/material/AccordionSummary";
+// import AccordionDetails from "@mui/material/AccordionDetails";
+// import Typography from "@mui/material/Typography";
+// import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+// import SwipeableTextMobileStepper from "./Executives";
 
 // Contact component- add or remove TeamCard with porps.
 export const Contact = () => {
@@ -27,70 +28,167 @@ export const Contact = () => {
             />
             <TeamCard
               image={pfp2}
-              name="Name Of the Member"
-              position="Position of the member"
+              name="Vedashree Kulkarni"
+              position="Tech Analyst"
               github=""
               linkedin=""
               instagram=""
             />
+
             <TeamCard
               image={pfp1}
-              name="Name Of the Member"
-              position="Position of the member"
+              name="Jeevan Wankhade"
+              position="Community Manager"
+              github=""
+              linkedin=""
+              instagram=""
+            />
+
+            <TeamCard
+              image={pfp1}
+              name="Anurag Wande"
+              position="Process Analyst"
               github=""
               linkedin=""
               instagram=""
             />
             <TeamCard
               image={pfp2}
-              name="Name Of the Member"
-              position="Position of the member"
+              name="Shravani Kalambe"
+              position="Activity Curator"
               github=""
               linkedin=""
               instagram=""
             />
           </div>
 
-          {/* <div className="row--two">
+          <div className="row--two">
+            <TeamCard
+              image={pfp2}
+              name="Ms. Vaishnavi Murai"
+              position="UI/UX"
+              github=""
+              linkedin=""
+              instagram=""
+            />
             <TeamCard
               image={pfp1}
-              name="Name Of the Member"
-              position="Position of the member"
+              name="Mr. Faizan Quazi"
+              position="Graphic Designing"
+              github=""
+              linkedin=""
+              instagram=""
+            />
+            <TeamCard
+              image={pfp2}
+              name="Ms. Aarzoo Pathan"
+              position="Web Development"
+              github=""
+              linkedin=""
+              instagram=""
+            />
+            <TeamCard
+              image={pfp2}
+              name="Ms. Meghana Mawale"
+              position="Internet of Thing"
+              github=""
+              linkedin=""
+              instagram=""
+            />
+            <TeamCard
+              image={pfp1}
+              name="Mr. Gaurish Bahurupi"
+              position="Cyber Security"
+              github=""
+              linkedin=""
+              instagram=""
+            />
+          </div>
+          <div className="row--two">
+            <TeamCard
+              image={pfp2}
+              name="Ms. Vedanti Dabhade"
+              position="Public Relations"
+              github=""
+              linkedin=""
+              instagram=""
+            />
+            <TeamCard
+              image={pfp2}
+              name="Ms. Darshana Patwa"
+              position="Event Management"
+              github=""
+              linkedin=""
+              instagram=""
+            />
+            <TeamCard
+              image={pfp1}
+              name="Mr. Swaraj Wadurkar"
+              position="Photgraphy"
+              github=""
+              linkedin=""
+              instagram=""
+            />
+            <TeamCard
+              image={pfp2}
+              name="Ms. Vaibhavi Kale"
+              position="Social Media"
+              github=""
+              linkedin=""
+              instagram=""
+            />
+            <TeamCard
+              image={pfp1}
+              name="Mr. Vedant Wankhade"
+              position="Video Editing"
+              github=""
+              linkedin=""
+              instagram=""
+            />
+          </div>
+          <div className="row--two">
+            <TeamCard
+              image={pfp2}
+              name="Ms. Devaki Thakare"
+              position="Content Writer"
+              github=""
+              linkedin=""
+              instagram=""
+            />
+            <TeamCard
+              image={pfp1}
+              name="Mr.Aditya Gulhane"
+              position="DSA and CP"
+              github=""
+              linkedin=""
+              instagram=""
+            />
+            <TeamCard
+              image={pfp1}
+              name="Mr. Soham Umap"
+              position="Machine Learning"
+              github=""
+              linkedin=""
+              instagram=""
+            />
+            <TeamCard
+              image={pfp2}
+              name="Ms. Renuka Siraskar"
+              position="App Development"
               github=""
               linkedin=""
               instagram=""
             />
 
-          </div> */}
-          <Accordion className="Accordion">
-            <AccordionSummary
-              expandIcon={<ExpandMoreIcon />}
-              aria-controls="panel1a-content"
-              id="panel1a-header"
-            >
-              <Typography>Domain Executive</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography>
-                <div className="Executive--names">
-                  <div>Aaradhya Pathak</div>
-                  <div>(Web development)</div>
-                </div>
-                <div className="Executive--names">
-                  <div>Aaradhya Pathak</div>
-                  <div>(Web development)</div>
-                </div>
-                <div className="Executive--names">
-                  <div>Aaradhya Pathak</div>
-                  <div>(Web development)</div>
-                </div>
-                <div className="Executive--names">
-                  <div>Aaradhya Pathak</div>
-                  <div>(Web development)</div>
-                </div>
-              </Typography>
-            </AccordionDetails>
-          </Accordion>
+            <TeamCard
+              image={pfp1}
+              name="Mr. Parth Bamnote"
+              position="Cloud Computing"
+              github=""
+              linkedin=""
+              instagram=""
+            />
+          </div>
         </div>
       </div>
     </>
